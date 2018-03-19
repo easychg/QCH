@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F535D44-D849-465E-867D-30A0779061E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QCHManage</RootNamespace>
+    <AssemblyName>QCHManage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>圣能logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InternationalNumericFormatter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bd5d9118a2ff5c9f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\InternationalNumericFormatter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CHCNetSDK.cs" />
+    <Compile Include="Classdata.cs" />
+    <Compile Include="ConnectionManger.cs" />
+    <Compile Include="DataGridViewPrint.cs" />
+    <Compile Include="DLL.cs" />
+    <Compile Include="FileClientSocket.cs" />
+    <Compile Include="FlowSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowSet.Designer.cs">
+      <DependentUpon>FlowSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBasicdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBasicdata.Designer.cs">
+      <DependentUpon>FrmBasicdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContractAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContractAdd.Designer.cs">
+      <DependentUpon>FrmContractAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContractInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContractInfo.Designer.cs">
+      <DependentUpon>FrmContractInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMimaXG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMimaXG.Designer.cs">
+      <DependentUpon>FrmMimaXG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNew.Designer.cs">
+      <DependentUpon>FrmNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecordquery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecordquery.Designer.cs">
+      <DependentUpon>FrmRecordquery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTruckAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTruckAdd.Designer.cs">
+      <DependentUpon>FrmTruckAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTruckInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTruckInfo.Designer.cs">
+      <DependentUpon>FrmTruckInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Print.Designer.cs">
+      <DependentUpon>Frm_Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_SystemSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SystemSet.Designer.cs">
+      <DependentUpon>Frm_SystemSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HikSDK.cs" />
+    <Compile Include="http.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="http.Designer.cs">
+      <DependentUpon>http.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Delete.cs" />
+    <Compile Include="Operation\Insert.cs" />
+    <Compile Include="Operation\Select.cs" />
+    <Compile Include="Operation\Update.cs" />
+    <Compile Include="ParameterSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterSet.designer.cs">
+      <DependentUpon>ParameterSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="Video1IP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Video1IP.designer.cs">
+      <DependentUpon>Video1IP.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FlowSet.resx">
+      <DependentUpon>FlowSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBasicdata.resx">
+      <DependentUpon>FrmBasicdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContractAdd.resx">
+      <DependentUpon>FrmContractAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContractInfo.resx">
+      <DependentUpon>FrmContractInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMimaXG.resx">
+      <DependentUpon>FrmMimaXG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNew.resx">
+      <DependentUpon>FrmNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecordquery.resx">
+      <DependentUpon>FrmRecordquery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTruckAdd.resx">
+      <DependentUpon>FrmTruckAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTruckInfo.resx">
+      <DependentUpon>FrmTruckInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Print.resx">
+      <DependentUpon>Frm_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SystemSet.resx">
+      <DependentUpon>Frm_SystemSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="http.resx">
+      <DependentUpon>http.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterSet.resx">
+      <DependentUpon>ParameterSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Video1IP.resx">
+      <DependentUpon>Video1IP.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ServiceReference1\WebService1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20160104165048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20160104161220.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\WebService1.disco" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="圣能logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+F:\汽车衡\QCH\QCHManage\bin\Release\QCHManage.exe.config
+F:\汽车衡\QCH\QCHManage\bin\Release\QCHManage.exe
+F:\汽车衡\QCH\QCHManage\bin\Release\QCHManage.pdb
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\ResolveAssemblyReference.cache
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.Form1.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.FrmBasicdata.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.FrmContractAdd.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.FrmContractInfo.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.FrmMain.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.FrmNew.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.FrmRecordquery.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.Properties.Resources.resources
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\GenerateResource.read.1.tlog
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\GenerateResource.write.1.tlog
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.exe
+F:\汽车衡\QCH\QCHManage\obj\x86\Release\QCHManage.pdb

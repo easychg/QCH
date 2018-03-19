@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<han>
+  <hong lun="QCH">Data Source=192.168.100.100;Initial Catalog=QCH;uid=sa;pwd=zmhy@1130;</hong>
+  <hong lun="video1">192.168.100.1</hong>
+  <hong lun="video2">192.168.100.1</hong>
+  <hong lun="video3">192.168.100.1</hong>
+  <hong lun="video4">192.168.100.1</hong>
+  <hong lun="qu">五家沟</hong>
+  <hong lun="Card_Com">COM3</hong>                                                   
+  <hong lun="Card_Baudrate">57600</hong>
+  <hong lun="Card_Address">进磅称重点2</hong>
+  <hong lun="flow">出磅</hong>
+  <hong lun="led_IP">192.168.100.34</hong>
+  <hong lun="led_wight">96</hong>
+  <hong lun="led_height">32</hong>
+  <hong lun="Model_Com">COM2</hong>
+  <hong lun="Model_Com_Send_Txt">40 30 31 30 32 0d</hong>
+  <hong lun="Model_Com_Send_Txt_2">40 30 31 30 31 0d</hong>
+  <hong lun="Model_Com_Down_Txt">40 30 31 30 30 0d</hong>
+  <hong lun="Yibiao_Com">COM1</hong>
+  <hong lun="Yibiao_Baute">1200</hong>
+  <hong lun="BandDan">WyyyyMMdd</hong>
+  <hong lun="data_path">D:/images/</hong>
+  <hong lun="no_print">石头</hong>
+</han>
