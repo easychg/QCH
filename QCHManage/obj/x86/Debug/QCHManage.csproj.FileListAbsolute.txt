@@ -1872,3 +1872,6 @@ C:\xiangMuWenJian\WuJiaGou1207\QCH\QCHManage\obj\x86\Debug\QCHManage.Properties.
 C:\xiangMuWenJian\WuJiaGou1207\QCH\QCHManage\obj\x86\Debug\QCHManage.Video1IP.resources
 C:\xiangMuWenJian\WuJiaGou1207\QCH\QCHManage\obj\x86\Debug\QCHManage.csproj.GenerateResource.Cache
 C:\xiangMuWenJian\WuJiaGou1207\QCH\QCHManage\obj\x86\Debug\QCHManage.http.resources
+F:\版本控制文件夹\QCH\QCHManage\bin\Debug\QCHManage.exe.config
+F:\版本控制文件夹\QCH\QCHManage\obj\x86\Debug\QCHManage.exe
+F:\版本控制文件夹\QCH\QCHManage\obj\x86\Debug\QCHManage.pdb
